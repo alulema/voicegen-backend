@@ -1,0 +1,10 @@
+fastapi~=0.103.0
+pydantic~=2.5.2
+uvicorn[standard]~=0.24.0.post1
+boto3~=1.34.6
+python-jose~=3.3.0
+botocore~=1.34.6
+starlette~=0.27.0
+python-dotenv~=1.0.0
+openai~=1.6.1
+aiofiles~=23.2.1

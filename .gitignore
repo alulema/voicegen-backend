@@ -1,0 +1,5 @@
+users.db
+.DS_Store
+.idea/
+audio_files/*
+**/__pycache__
