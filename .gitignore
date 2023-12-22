@@ -3,3 +3,4 @@ users.db
 .idea/
 audio_files/*
 **/__pycache__
+.env
