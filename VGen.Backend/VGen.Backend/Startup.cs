@@ -3,7 +3,7 @@ using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace VGen.Backend.Auth;
+namespace VGen.Backend;
 
 public class Startup : FunctionsStartup
 {
