@@ -142,6 +142,8 @@ public class BackendFunction
         // Read request body
         var bearerToken = req.Headers["Authorization"];
         var token = bearerToken.FirstOrDefault()?.Split(" ").Last();
+        
+        if (string.IsNullOrEmpty(token)) return new UnauthorizedResult();
 
         try
         {
