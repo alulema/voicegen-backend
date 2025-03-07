@@ -1,0 +1,26 @@
+{
+    "version": "2.0",
+    "logging": {
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            },
+            "enableLiveMetricsFilters": true
+        }
+    },
+    "extensions": {
+        "http": {
+            "routePrefix": "api",
+            "maxOutstandingRequests": 200,
+            "maxConcurrentRequests": 100
+        }
+    },
+    "functionTimeout": "00:10:00",
+    "healthMonitor": {
+        "enabled": true,
+        "healthCheckInterval": "00:05:00",
+        "healthCheckWindow": "00:10:00",
+        "healthCheckThreshold": 5
+    }
+}

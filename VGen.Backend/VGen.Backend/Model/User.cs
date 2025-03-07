@@ -1,15 +1,15 @@
 ﻿using Newtonsoft.Json;
 
-namespace VGen.Backend.Auth.Model;
+namespace VGen.Backend.Model;
 
 public class User
 {
     [JsonProperty("id")]
-    public string Id { get; set; }
+    public string? Id { get; set; }
     [JsonProperty("email")]
-    public string Email { get; set; }
+    public string? Email { get; set; }
     [JsonProperty("username")]
-    public string Username { get; set; }
+    public string? Username { get; set; }
     [JsonProperty("limited")]
     public bool Limited { get; set; }
     [JsonProperty("trialCount")]
@@ -17,11 +17,11 @@ public class User
     [JsonProperty("isBanned")]
     public bool IsBanned { get; set; }
     [JsonProperty("lastLoginDate")]
-    public string LastLoginDate { get; set; }
+    public string? LastLoginDate { get; set; }
     [JsonProperty("creationDate")]
-    public string CreationDate { get; set; }
+    public string? CreationDate { get; set; }
     [JsonProperty("authProvider")]
-    public string AuthProvider { get; set; }
+    public string? AuthProvider { get; set; }
     [JsonProperty("role")]
-    public string Role { get; set; }
+    public string? Role { get; set; }
 }

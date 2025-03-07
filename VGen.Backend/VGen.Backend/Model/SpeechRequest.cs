@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace VGen.Backend.Audio.Model;
+namespace VGen.Backend.Model;
 
 public class SpeechRequest
 {
